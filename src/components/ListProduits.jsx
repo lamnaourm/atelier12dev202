@@ -2,17 +2,20 @@ import React, { Component } from 'react'
 import styles from './listproduits.module.css'
 import axios from 'axios'
 import Produit from './Produit'
+import Header from './Header'
 
 export default class ListProduits extends Component {
 
     state = {
         categories: [],
         selectedCategory: -1,
-        produits: []
+        produits: [],
+
     }
     render() {
         return (
             <div className={styles.listproduit}>
+                <Header />
                 <select name="selectedCategory" id="selectedCategory" value={this.state.selectedCategory} onChange={e => this.setState({ selectedCategory: e.target.value })}>
                     <option value="0">Tous les produits</option>
                     {

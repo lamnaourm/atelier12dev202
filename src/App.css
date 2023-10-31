@@ -1,5 +1,7 @@
-.container{
-    width: 90%;
-    margin: auto;
+.body {
     background-color: whitesmoke;
+
+}
+.container{
+    margin: auto;
 }

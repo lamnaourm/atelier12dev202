@@ -1,0 +1,10 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100vw;
+}
